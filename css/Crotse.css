@@ -1,0 +1,410 @@
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: "sifonn-basic-outline", sans-serif;
+}
+
+
+html{
+
+scroll-behavior: smooth;
+
+}
+
+.container {
+  width: 90%;
+  max-width: 1500px;
+  margin: 0 auto;
+}
+
+h2 {
+  background-image: url(https://i.ibb.co/xXmzwXy/Amarillo-Profesional-Gradiente-Tecnolog-a-Comunicaci-n-Interna-Sitio-Web-8-1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-size: 40px;
+  padding: 15% 5% 6% 55%;
+  color: white;
+  letter-spacing: 1px;
+  font-family: monospace;
+}
+
+.titulo img {
+  width: 90%;
+}
+
+.contenedor-texto .tiendas {
+  color: #0170e3;
+}
+
+
+h1.titulo1 {
+  color: #0170e3;
+  font-size: 1000%;
+  margin: 10%;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+}
+
+.subtitulo{
+
+  font-size: larger;
+
+}
+
+.subtitulo-2{
+
+  font-size: larger;
+
+}
+
+
+section.seccion1 {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 5%;
+}
+
+section.seccion1 p {
+  font-size: larger;
+  margin-left: 20%;
+  
+}
+
+.imagen1 {
+  width: 30%;
+  margin: 0% 8%;
+}
+
+h1.titulo2 {
+  color: white;
+  font-size: 1000%;
+  margin: 0 5%;
+  text-align: center;
+  font-family: 'poppins',sans-serif;
+}
+
+section.seccion2 {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 5%;
+}
+
+section.seccion2 p {
+  font-size: 400%;
+  color: white;
+  text-align: center;
+  margin-bottom: 5%;
+  font-family: 'poppins',sans-serif;
+}
+
+.slide {
+  background-color: #C55A6A;
+  padding: 5% 0;
+  margin: 10% 0;
+}
+
+.box {
+  width: 300px;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.25s;
+}
+
+.box:hover{
+
+  transform: translateY(30px);
+}
+
+.slide-img {
+  height: 450px;
+  position: relative;
+}
+
+.slide-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.overlay {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.40);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buy-btn {
+  width: 160px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  color: #252525;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: calibri;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px rgba(180, 169, 154, 0.32);
+}
+
+.buy-btn:hover {
+  color: #ffffff;
+  background-color: #000000;
+  transition: all ease 0.3s;
+}
+
+a {
+  text-decoration: none;
+}
+
+.overlay {
+  visibility: hidden;
+}
+
+.slide-img:hover .overlay {
+  visibility: visible;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+  
+
+  .box {
+    width: 200px;
+   
+   
+  }
+  
+  .slide-img {
+    height: 300px;
+   
+  }
+  
+  
+
+
+} 
+
+h1.titulo3 {
+  color: #0170e3;
+  font-size: 1000%;
+  margin: 10% 10% 10% 15%;
+  text-align: left;
+  font-family: 'poppins',sans-serif;
+}
+
+section.seccion3 {
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  margin-top: 5%;
+}
+
+section.seccion3 p {
+  font-size: larger;
+  margin-left: 20%;
+}
+
+.imagen3 {
+  width: 30%;
+  margin: 0% 8%;
+}
+
+
+
+
+/* texto h2*/
+
+@media only screen and (max-width: 1550px) {
+  h2 {
+    font-size: 30px;
+  }
+}
+
+/* main mobiles */
+
+@media only screen and (max-width: 900px) {
+  h2 {
+    background-image: url(https://i.ibb.co/BGb5DzN/Amarillo-Profesional-Gradiente-Tecnolog-a-Comunicaci-n-Interna-Sitio-Web-1-1.png);
+    font-size: 40px;
+    padding: 26% 10% 10% 20%;
+  }
+  
+.titulo img {
+  width: 90%;
+  margin-top: 10%;
+}
+
+  .container {
+    width: 100%;
+  }
+
+  .mainin {
+    margin:10%;
+  }
+
+  h1.titulo1 {
+    font-size: 600%;
+    text-align: left;
+  }
+
+  section.seccion1 {
+    display: block;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  section.seccion1 p {
+    margin-left: 0%;
+    text-align: justify;
+  }
+
+  .imagen1 {
+    width: 70%;
+    margin: 10% 15%;
+  }
+
+  h1.titulo2 {
+    font-size: 600%;
+  }
+
+  section.seccion2 {
+    display: block;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  section.seccion2 p {
+font-size: 200%;
+    margin: 0%;
+    text-align: center;
+  }
+
+
+  h1.titulo3 {
+    font-size: 600%;
+    text-align: center;
+    margin: 0;
+  }
+
+  section.seccion3 {
+    display: block;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 5%;
+  }
+
+  section.seccion3 p {
+    margin-left: 0%;
+    text-align: justify;
+  }
+
+  .imagen3 {
+    width: 70%;
+    margin: 10% 15%;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  h2 {
+    font-size: 25px;
+    padding: 40% 10% 15% 20%;
+  }
+
+  .titulo img {
+    width: 100%;
+    margin-top: 40%;
+  }
+
+  .container {
+    width: 100%;
+  }
+
+  .main {
+    margin: 0%;
+  }
+
+  h1.titulo1 {
+    font-size: 400%;
+    
+  }
+
+  h1.titulo2 {
+    font-size: 400%;
+  }
+
+  section.seccion2 p {
+    font-size: 200%;
+ 
+  }
+
+  h1.titulo3 {
+    font-size: 400%;
+  }
+
+
+}
+
+@media only screen and (max-width: 400px) {
+  h2 {
+    font-size: 20px;
+    
+  }
+
+
+
+  h1.titulo1 {
+    font-size: 300%;
+  }
+
+
+
+  h1.titulo2 {
+    font-size: 300%;
+  }
+
+  section.seccion2 p {
+    font-size: 100%;
+ 
+  }
+ 
+
+  h1.titulo3 {
+    font-size: 300%;
+  }
+
+
+}
+
